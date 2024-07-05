@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(187, 180, 230);
+
+}
+.bdy{
+    background-image: -moz-linear-gradient(rgb(113, 98, 207),rgb(81, 66, 179),rgb(72, 56, 179),rgb(76, 58, 196),rgb(65, 52, 151));
+}
+.shopheader{
+    width: 100%;
+    height: 60px;
+    background: rgb(172, 159, 255);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+
+
+}
+.logo{
+    width: fit-content;
+    height: 100%;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.logo img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+ .nav{
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(172, 159, 255);
+
+ }
+ .nav ul {
+    list-style: none;
+
+ }
+ .nav ul li {
+    display: inline;
+    float: left;
+    transition: 0.1s ease 0s;
+ }
+.nav ul li:hover{
+    transform: translateY(-2px);
+}
+.nav ul li a {
+    padding: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav ul li a:hover{
+    color: black;
+    transform: translateY(-10px);
+}
+
+ .sm{
+    width: 120px;
+    height: 100%;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ .sm a{
+    line-height: 30%;
+    padding: 0 10px;
+
+ }
+
+ .clothcontainer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    
+
+ }
+ .clothbox{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ececec;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: rgb(170, 163, 216);
+    transition: 0.5s ease 0s;
+ }
+ .clothbox:hover{
+    transform: translateY(-5px);
+ }
+ .clothimg{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+
+.clothimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.clothtext{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.clothtext span{
+    color: rgb(72, 44, 255);
+    font-size: 0.9rem;
+    
+    
+}
+.clothtext span a{
+    text-decoration: none;
+    color: black;
+
+}
+.clothtext span a:hover{
+    color: rgb(170, 163, 216);
+    transition: all ease 0.3s ;
+}
+.clothtext p{
+    color: rgb(170, 163, 216);
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+
+}
+.clothbtn{
+    font-size: 0.9rem;
+    color: rgb(170, 163, 216);
+    font-weight: 700;
+    padding: 0.5em 1em;
+    background-color: rgb(214, 223, 220);
+    border-radius: 5px;
+    width: 40px;
+    transition: transform 0.3s ease 0s;
+    border: 1px solid rgb(72, 44, 255);
+}
+.clothbtn:hover{
+    transform: translateY(-5px);
+}
+.clothbtn a{
+    text-decoration: none;
+}
